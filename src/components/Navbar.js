@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 class Navbar extends Component {
   state = {
     username: 'YOUR NAME'
@@ -9,6 +10,7 @@ class Navbar extends Component {
     return (
       <nav id='navbar'>
         <ul>
+
           <li href="#!">Dashboard</li>
           <li href="#!">Contact</li>
           <li href="#!">About</li>
